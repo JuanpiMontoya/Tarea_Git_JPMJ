@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <title>Blog Personal JPMJ</title>
+	    <link rel="stylesheet" type= "text/css" href="styles.css">
+    </head>
+    <body>
+        <audio src="Media/musicaFondo.mp3" autoplay="autoplay" loop="loop"></audio>
+        <header>
+            <h1><b><i>Blog Personal</i></b></h1>
+        </header>
+        <div id="menu">
+                <ul>
+                    <li><a href=""><i>Inicio</i></a></li>
+                    <li><a href="Mangas_Favoritos.html"><i>Mangas Favoritos</i></a></li>
+                    <li><a href="Series_Favoritas.html"><i>Series Favoritas</i></a></li> 
+                    <li><a href="Pelis_Favoritas.html"><i>Películas Favoritas</i></a></li>     
+                </ul>
+                <br/><br/><br/><br/><br/>
+        </div>
+        <main>
+            <article>
+                <section>
+                    <p id="texto"> ¡Hola a todos! En este blog me gustaría compartir mis mangas y series favoritas hasta la fecha. 
+                        Esta es mi lista personal, en el cual explicare un poco sobre cada obra, y espero que alguna de ellas les 
+                        llame la atención.
+                    </p>
+                    <h2 style="text-align:center;"><i>Mangas</i></h2>
+                    <h3>¿Que es un manga?</h3>   
+                    <p id="texto">Manga es la palabra japonesa para designar las historietas en general. Fuera de Japón, se utiliza para referirse a las historietas de origen japonés.
+                    El manga japonés abarca una extensa variedad de géneros entre los que destaca el romance, acción, ciencia ficción, fantasía y otros.</p>
+                    <center><img src="Media/Imgs/Explicacion_M.jpg"  width="570" height="320"></center>
+                    <p id="texto">Cabe destacar que llega a públicos diversos al ser una parte muy importante del mercado Japones y motiva múltiples adaptaciones a series de animación, películas, videojuegos y novelas.
+                    Todas las obras más famosas se publican en las revistas de manga, conocidas también como <cite>"revistas manga"</cite> o <cite>"revistas antológicas"</cite> donde al menos diez de ellas pasan del millón de 
+                    ejemplares semanales como la <samp>Shōnen Jump</samp> siendo la revista más vendida con 6 millones de ejemplares cada semana o la <samp>Shōnen Magazine</samp> 
+                    le sigue con 4 millones. Si alguna de estas obras es exitosa sus capítulos pueden ser recogidos en tomos de unas 200 páginas conocidos como tankōbon</p>    
+                    <div>
+                        <h3>Lista de mangas favoritos:</h3>
+                        <ul type="square">
+                            <li><a href="Mangas_Favoritos.html#CSM" >Chainsaw Man</a></li>
+                            <li><a href="Mangas_Favoritos.html#JJK" >Jujutsu Kaisen</a></li>
+                            <li><a href="Mangas_Favoritos.html#D" >Dandadan</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2 style="text-align:center;"><i>Series</i></h2>
+                    <center><img src="Media/Imgs/Explicacion_S.jpg"  width="540" height="360"></center>
+                    <div>
+                        <h3>Lista de series favoritas:</h3>
+                        <ul type="square">
+                            <li><a href="Series_Favoritas.html#Mr.R">Mr. Robot</a></li>
+                            <li><a href="Series_Favoritas.html#DD">Daredevil</a></li>
+                            <li><a href="Series_Favoritas.html#RyM">Rick y Morty</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2 style="text-align:center;"><i>Peliculas</i></h2>
+                    <center><img src="Media/Imgs/Explicacion_P.jpg"  width="665" height="360"></center>
+                    <div>
+                        <h3>Lista de películas favoritas:</h3>
+                        <ul type="square">
+                            <li><a href="Pelis_Favoritas.html#BD">Baby Driver</a></li>
+                            <li><a href="Pelis_Favoritas.html#FO">Face Off</a></li>
+                            <li><a href="Pelis_Favoritas.html#P">Prisoners</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <form>
+            <label>Elige la obra que mas te llamo la atención:</label>
+            <select id="ObraGusto">
+                <option>Chainsaw Man</option>
+                <option>Dandadan</option>
+                <option>Jujutsu Kaisen</option>
+                <option>Mr. Robot</option>
+                <option>Daredevil</option>
+                <option>Rick y Morty</option>
+                <option>Baby Driver</option>
+                <option>Face Off</option>
+                <option>Prisoners</option>
+            </select>
+            <p>
+              Deja tu opinión sobre el blog personal:<br>
+              <textarea name="opinión" id="opinión"></textarea>
+            </p>
+            <button onclick="comentario()">Enviar</button>
+            <p id="Comentarios"></p>
+          </form>
+        <footer>
+            <hr/>
+            <p>Sistemas de información I - Blog personal <a id="linkF" href="https://puntocero.ucb.edu.bo/a/copyright" target="_blank">Todos los derechos reservados</a><br/>
+            Juan Pablo Montoya Jimenez <a id = "linkF" href="https://mega.nz/file/lZIHTbAA#3FWrzPJEvaR4uz4wDqochujgrSqTSPT975DaJc_AgcM" target="_blank">Imagenes del sitio web</a><br/>
+            Cochabamba  - Boliva 2023</p>
+        </footer>      
+    </body>
+</html>
+

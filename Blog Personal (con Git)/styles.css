@@ -1,0 +1,132 @@
+html
+{
+   background-image:linear-gradient(to right,#6273A0,#b8bed0,#6FAC74);
+   min-height: 100%;
+}
+h1 
+{
+   font-family: "Tahoma";
+   font-size:30px;
+   text-align:center;
+   color:teal
+}
+h2 
+{
+   font-family: "Tahoma"; 
+   font-size:25px;
+}
+h3{
+   font-family: "Trebuchet MS"; 
+   font-size:21px;
+}
+h4 {
+   font-family: "Trebuchet MS"; 
+   font-size:18px;
+}
+#menu{
+   background-color:teal;
+}
+#menu ul{
+   margin:0;
+   padding:0;
+   list-style-type:none;
+}
+#menu ul a { 
+   width:100px;
+   text-decoration:none;
+   text-align:center;
+   color:white;
+   padding:5px 8px;
+   border-right:1px black;
+   display:block; 
+}
+#menu li {
+   float:left;
+} 
+#menu a:hover {
+   background-color:#336699;
+}
+#menu li a
+{
+   font-family: "Tahoma";
+   font-size:20px;
+   text-decoration: none;
+   float:left;
+   padding: 19px;
+   color: white;
+}
+#texto 
+{
+   font-family: "Trebuchet MS";  
+   font-size:15px; 
+}
+#texto samp
+{
+   font-family: "Trebuchet MS"; 
+   font-size:15px;
+}
+li a
+{
+   font-family: "Tahoma";
+   font-size:15px;
+   text-decoration: none;
+   color: black;
+}
+ul li{
+   font-family: "Trebuchet MS"; 
+   font-size:15px; 
+}
+input,textarea,select {
+   background-color: #B2CDC1;
+}
+footer{
+   font-family: "Trebuchet MS"; 
+   font-size:15px; 
+}
+#Tabla_MyS {
+   border-collapse:collapse;
+}
+#Tabla_MyS thead{
+   background-color: teal;
+   font-weight: bold;
+}
+#Tabla_MyS td,th{
+   border: 2px solid;
+}
+#Tabla_MyS thead tr {
+   font-family: "Trebuchet MS";
+   text-align: center;
+   font-size:22px; 
+} 
+#Tabla_MyS tbody{
+   font-family: "Trebuchet MS";
+   text-align: left;
+   vertical-align: top;
+   font-size:15px; 
+} 
+#Tabla_MyS tbody li{
+   list-style: none;
+}
+#Portadas{
+   text-align: center;
+}
+#linkB{
+   font-family: "Trebuchet MS";
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+   width: 100%;
+}
+#linkF{
+   text-decoration: none;
+   text-align: right;
+   display: inline-block;
+   width: 100%;
+   font-weight: bold;
+   color: black;
+}
+hr{
+   height: 2px;
+   background-color: black;
+   border: none;
+}
